@@ -7,25 +7,20 @@ Commission Calculator is a Node.js application that calculates commission fees f
 
 # Installation
 Clone the repository:
-
-bash
 ```console
 git clone https://github.com/yourusername/commission-calculator.git
 ```
 Navigate to the project directory:
-
 ```console
 cd commission-calculator
 ```
 Install the required dependencies:
-
 ```console
 npm install
 ```
 
 # Usage
 To run the application, execute the following command, replacing input.json with the path to your input JSON file:
-
 ```console
 node app.js input.json
 ```
@@ -41,6 +36,6 @@ This will run all the tests using Jest and display the test results in the termi
 # Project Structure
  * src: The main source code of the application
    * commissionCalculator.js: Contains the core functions for calculating commission fees
-* test: The test files for the application
+ * test: The test files for the application
    * commissionCalculator.test.js: Contains the unit tests for the commission calculation functions
-* app.js: The main entry point of the application
+ * app.js: The main entry point of the application
